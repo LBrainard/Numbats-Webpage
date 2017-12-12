@@ -1,0 +1,72 @@
+
+/*
+* Lauren Brainard
+* 12/1/17
+* Numbat Project
+*/
+
+
+/* The universal selector */
+
+header {text-align: center;
+	font-family: "Arial", Times New Roman, serif;
+	color: #1AB82B;
+	border-bottom: 5px solid #1AB82B;
+	
+}
+
+/* These are the attributes for the heading */
+h2   { font-family: "Arial", Times New Roman, serif;
+	   color: #641E16;
+	   
+	}
+
+/* These are body attributes */
+body { 
+	background-color: #F3F3C2;
+	width: 950px;
+	margin: auto;
+	font-family: "Arial", Times New Roman, serif;
+	
+}
+
+/* This is how the photos appear in the line */
+img{
+	float: left;
+	height: 125px;
+	width: 180px;
+	padding: 5px;
+	
+	}
+
+/* This applies to the top photo only */ 
+#top {
+	border: 2px dashed black;
+	height: auto;
+	width: 170px;
+	margin: 5px;
+
+}
+
+#map {
+	height: 200px;
+	width: 250px;
+	float: right;
+}
+
+footer {
+	border-top: 2px solid green;
+	font-size: 13px;
+	
+}
+
+a:link {
+	color: #C338FF;
+}
+
+a:hover {
+	color: #51B2FF;
+	text-decoration: underline;
+	font-weight: bold;
+	
+}
